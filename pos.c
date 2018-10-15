@@ -1,21 +1,27 @@
 #include <stdio.h>
-#include "printBits.h"
+#include "binario.h"
 
+    int binary_conversion(int);
 
+     
 
-int posicionBits(int x, int p, int n){
-int mask = !((-1)<< n);
-return mask;
+    int main()
 
-}
+    {
 
-int main(){
-	int mascara= 010101/*posicionBits(2,3,7)*/;
-	    int i = 23;
-        
-        float f = 23.45f;
-        printBits(sizeof(i), &i);
-        
-        printBits(sizeof(f), &f);
+       int num, bin;
 
-}
+     
+
+       printf("Enter a decimal number: ");
+
+       scanf("%d", &num);
+
+       bin = binary_conversion(num);
+
+       printf("The binary equivalent of %d is %d\n", num, bin);
+
+    }
+
+     
+
