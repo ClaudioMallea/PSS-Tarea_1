@@ -59,6 +59,23 @@ for(int iter=0;iter< 32-n; iter++) {
 }
 return -1;
 
+
+
+char *reemplazo(char *s, char c, char *pal){
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
 }
 int main(){
 int a;
